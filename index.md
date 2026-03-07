@@ -1,45 +1,44 @@
-﻿# Template Pilot
+﻿---
+label: Home
+order: 1
+---
 
-A self-hosted AWS SES control center for teams.
+# Template Pilot
 
-!!!primary Launch Faster
-Create templates, send campaigns, and monitor delivery from one workspace.
+Self-hosted AWS SES operations for teams that need control, speed, and clean delivery visibility.
 
 <div class="tp-hero-actions">
   <a class="retype-button retype-button--primary" href="./getting-started/">Get Started</a>
-  <a class="retype-button" href="https://github.com/Template-Pilot/template-pilot">View on GitHub</a>
+  <a class="retype-button" href="./deployment/">Deploy Guide</a>
+  <a class="retype-button" href="https://github.com/Template-Pilot/template-pilot">GitHub</a>
 </div>
-
-## Why Teams Use Template Pilot
-
-:::grid 3
-:::card
-### Build
-Visual and raw template editing with sync-safe draft workflows.
-:::
-
-:::card
-### Send
-Campaign launch flows with reusable contact books and guardrails.
-:::
-
-:::card
-### Monitor
-Delivery, bounce, complaint, open, and click visibility in one place.
-:::
-:::
-
-## Self-Hosted by Design
-
-- Organization-scoped data model
-- Org-level license activation and validation
-- Shared org SES configuration
-- Team member invites with role-based ownership
 
 ---
 
-## Next Steps
+## What You Get
 
-1. [Install and configure](./getting-started/)
-2. [Activation and licensing](./licensing/)
-3. [Deploy and update](./deployment/)
+### Build
+Template editing with draft workflows and SES sync.
+
+### Send
+Campaign execution with reusable audience data and safer operations.
+
+### Monitor
+Delivery, bounces, complaints, opens, and clicks in one place.
+
+---
+
+## Designed for Self-Hosted Teams
+
+- Organization-scoped templates, brand kits, and contact books
+- Shared organization SES configuration
+- Organization-level licensing with automatic revalidation
+- Team invite and ownership model
+
+---
+
+## Start Here
+
+1. [Getting Started](./getting-started/)
+2. [Licensing](./licensing/)
+3. [Deployment](./deployment/)
