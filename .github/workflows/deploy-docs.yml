@@ -21,8 +21,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Retype CLI
+        run: npm install --global retypeapp
+
       - name: Build Retype Site
-        uses: retypeapp/action-build@latest
+        run: retype build .
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
