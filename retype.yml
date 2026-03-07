@@ -1,0 +1,11 @@
+﻿input: .
+output: .retype
+url: https://template-pilot.github.io/template-pilot-docs/
+branding:
+  title: Template Pilot
+  label: Docs
+links:
+  - text: GitHub
+    link: https://github.com/Template-Pilot/template-pilot
+footer:
+  copyright: "&copy; {{ year }} Template Pilot."

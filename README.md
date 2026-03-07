@@ -1,9 +1,15 @@
-﻿# SES Template Pilot Landing
+﻿# Template Pilot Docs
 
-Static landing page for GitHub Pages deployment.
+Retype docs and landing page for Template Pilot.
 
-## Deploy
+## Local Preview
 
-- Push this repo to GitHub.
-- Enable GitHub Pages from branch root.
-- Ensure `.nojekyll` exists.
+```bash
+npx retype start
+```
+
+## Build
+
+```bash
+npx retype build
+```
