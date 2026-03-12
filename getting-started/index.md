@@ -34,3 +34,17 @@ SES_WEBHOOK_SECRET=
 
 - `SES_WEBHOOK_URL` can be left empty to use `${APP_BASE_URL}/api/webhooks/ses`
 - `SES_WEBHOOK_SECRET` is required to authenticate webhook calls
+
+## AWS Permissions
+
+For full functionality, use:
+
+- SES template + send permissions (SESv2 + SES)
+- `ses:GetSendQuota`
+- `cloudwatch:GetMetricData` (dashboard deliverability)
+- AWS managed policy `AmazonSNSFullAccess` (for webhook setup automation)
+
+Optional hardening:
+
+- Replace `AmazonSNSFullAccess` with a custom SNS policy limited to:
+  `CreateTopic`, `Subscribe`, `SetTopicAttributes`, `ListSubscriptionsByTopic`
